@@ -1,0 +1,38 @@
+<img src="assets/img/main-resized.jpg" usemap="#image-map" />
+
+
+<map name="image-map">
+    <area target="" alt="Interfaith Chapel" title="Interfaith Chapel" href="" coords="506,478,64" shape="circle">
+    <area target="" alt="Track and Football Oval" title="Track and Football Oval" href="" coords="615,445,722,293,754,275,781,268,815,274,843,290,863,314,873,336,875,355,871,387,859,410,836,444,800,492,767,541,748,559,710,572,680,570,655,563,634,545,618,525,607,491,610,468" shape="poly">
+    <area target="" alt="Nutrition and Food Science Building" title="Nutrition and Food Science Building" href="" coords="422,559,423,577,571,577,571,553" shape="poly">
+    <area target="" alt="Campus Development and Maintenance Building" title="Campus Development and Maintenance Building" href="" coords="333,569,333,579,384,578,384,569" shape="poly">
+    <area target="" alt="PUP Sta. Mesa Ferry Station" title="PUP Sta. Mesa Ferry Station" href="" coords="254,548,263,569,268,567,270,572,281,568,271,539,260,544,260,548" shape="poly">
+    <area target="" alt="Generator Facility" title="Generator Facility" href="" coords="255,526,259,533,262,525,266,529" shape="poly">
+    <area target="" alt="Linear Park" title="Linear Park" href="" coords="199,402,211,402,108,107,115,105" shape="poly">
+    <area target="" alt="Main Building" title="Main Building" href="" coords="355,440,355,549,368,551,369,558,404,559,406,548,415,549,415,438,425,419,519,365,514,353,522,348,504,318,496,320,490,314,395,368,375,368,277,314,273,319,265,316,246,347,255,353,248,363,343,419,313,438,293,401,280,388,233,416,241,429,242,430,239,433,258,465,272,491,288,516,304,536,349,510,346,496,327,457" shape="poly">
+    <area target="" alt="Student Canteen" title="Student Canteen" href="" coords="224,271,249,284,263,263,232,248" shape="poly">
+    <area target="" alt="University Canteen - Sampaguita Building" title="University Canteen - Sampaguita Building" href="" coords="206,268,252,296,237,319,215,306,208,310,196,302,201,297,191,292" shape="poly">
+    <area target="" alt="Lagoon" title="Lagoon" href="" coords="350,276,350,296,365,290,378,291,388,291,397,285,404,283,431,260,420,271,440,247,449,226,452,210,466,196,477,182,478,171,466,153,452,143,431,148,421,159,421,195,416,209,402,214,389,213,379,223,375,237,375,256,376,268,363,272" shape="poly">
+    <area target="" alt="Swimming Pool" title="Swimming Pool" href="" coords="543,43,637,89" shape="rect">
+    <area target="" alt="PUP Obelisk" title="PUP Obelisk" href="" coords="562,219,19" shape="circle">
+    <area target="" alt="Flag Pole" title="Flag Pole" href="" coords="525,311,545,332" shape="rect">
+    <area target="" alt="Freedom Park" title="Freedom Park" href="" coords="508,291,563,316,587,262,564,266,541,260" shape="poly">
+    <area target="" alt="Apolinario Mabini Shrine" title="Apolinario Mabini Shrine" href="" coords="566,328,607,348,651,288,607,254,593,264" shape="poly">
+    <area target="" alt="Grandstand" title="Grandstand" href="" coords="628,372,635,377,631,382,638,385,653,362,659,366,674,349,668,343,683,323,669,315,656,336,648,336,638,347,641,355" shape="poly">
+    <area target="" alt="Gazebo" title="Gazebo" href="" coords="655,250,655,257,667,259,668,250" shape="poly">
+    <area target="" alt="Community Building" title="Community Building" href="" coords="813,491,823,500,851,463,839,455" shape="poly">
+    <area target="" alt="Gymnasium and Sports Center" title="Gymnasium and Sports Center" href="" coords="655,26,781,109" shape="rect">
+    <area target="" alt="Tennis Court" title="Tennis Court" href="" coords="684,127,771,203" shape="rect">
+    <area target="" alt="Outdoor Basketball and Volleyball Court" title="Outdoor Basketball and Volleyball Court" href="" coords="592,123,681,184" shape="rect">
+    <area target="" alt="Visitor Information Center" title="Visitor Information Center" href="" coords="804,185,833,213" shape="rect">
+    <area target="" alt="Tahanan ng Alumni" title="Tahanan ng Alumni" href="" coords="516,37,532,80" shape="rect">
+    <area target="" alt="Physical Education Building" title="Physical Education Building" href="" coords="480,10,510,142" shape="rect">
+    <area target="" alt="Ninoy Aquino Library and Learning Resources Center" title="Ninoy Aquino Library and Learning Resources Center" href="" coords="310,25,378,216,419,199,396,127,464,103,450,61,379,84,352,9" shape="poly">
+    <area target="" alt="Water Tank / UFO" title="Water Tank / UFO" href="" coords="302,67,13" shape="circle">
+    <area target="" alt="Water Pump Facility" title="Water Pump Facility" href="" coords="280,3,306,37" shape="rect">
+    <area target="" alt="Charlie Del Rosario Hall" title="Charlie Del Rosario Hall" href="" coords="164,197,268,257,289,225,185,162" shape="poly">
+    <area target="" alt="Ampitheater" title="Ampitheater" href="" coords="356,298,374,297,392,292,402,304,410,321,394,328,374,325,360,312" shape="poly">
+    <area target="" alt="Laboratory High School" title="Laboratory High School" href="" coords="300,225,133,119,127,95,135,76,165,27,178,8,193,12,223,31,251,45,263,57,282,110,298,156,310,185,314,199" shape="poly">
+    <area target="" alt="Printing Press Building" title="Printing Press Building" href="" coords="82,47,104,76,115,69,94,40" shape="poly">
+    <area target="" alt="Property Building" title="Property Building" href="" coords="84,2,84,15,98,16,99,26,127,24,127,17,140,16,140,2" shape="poly">
+</map>
