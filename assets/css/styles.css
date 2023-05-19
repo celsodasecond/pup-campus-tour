@@ -360,17 +360,11 @@ img {
 }
 
 /*=============== MAP PREVIEW ===============*/
-.preview-image {
-	/*Not Used Anymore*/
-	width: 50%;
-	height: auto;
-	border-radius: 1rem;
-}
-
 .preview-container {
 	background-color: rgba(0, 0, 0, 0.75);
 	border-radius: 0.7rem;
 	padding: 0.8rem;
+	overflow: hidden;
 }
 
 .preview-name,
@@ -380,6 +374,70 @@ img {
 
 .preview-name {
 	color: white;
+}
+
+/*=============== MAP MODAL ===============*/
+.modal {
+	position: fixed;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	width: 60%;
+	height: auto;
+	z-index: 9999;
+	animation: modalAnimation 0.4s forwards;
+}
+
+@keyframes modalAnimation {
+	from {
+		top: 100%;
+	}
+	to {
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.modal-content {
+	position: relative;
+	width: 100%;
+	max-height: 80vh;
+	overflow-y: auto;
+	background-color: black;
+	padding: 1.7rem;
+	border-radius: 10px;
+}
+
+.modal-content > .preview-container {
+	padding-top: 0rem;
+}
+
+.modal-content > .preview-container > .preview-name {
+	margin-bottom: 0.5rem;
+	font-size: x-large;
+}
+
+.modal-image {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+}
+
+.modal-close {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal-open {
+  pointer-events: none;
+}
+
+.modal-open .modal-close {
+  pointer-events: auto;
 }
 
 /*=============== SIS ===============*/

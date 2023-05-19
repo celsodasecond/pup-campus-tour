@@ -1,0 +1,266 @@
+[
+	{
+		"data-image": "assets/img/pup_buildings/interfaith.jpg",
+		"data-name": "Interfaith Chapel",
+		"data-description": "Is a nondenominational Christian church.",
+		"data-long-description": "The Polytechnic University of the Philippines' Main Campus Interfaith Chapel Building is a multi-faith worship space located on the Mabini Campus of the university in Santa Mesa, Manila, Philippines. The chapel is open to students, faculty, staff, and the general public. The chapel is designed to be a place of peace and reflection for people of all faiths. The interior is simple and unadorned, with natural light streaming in through the windows.",
+		"coords": "506,478,64",
+		"shape": "circle"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/oval.jpg",
+		"data-name": "Track and Football Oval",
+		"data-description": "Is a lawn, athletics track",
+        "data-long-description": "The oval is a popular spot for students, faculty, and staff to exercise and relax. It is also used for various university events, such as intramural competitions. The oval is a valuable resource for the Polytechnic University of the Philippines community and a symbol of the university's commitment to physical fitness and wellness.",
+		"coords": "615,445,722,293,754,275,781,268,815,274,843,290,863,314,873,336,875,355,871,387,859,410,836,444,800,492,767,541,748,559,710,572,680,570,655,563,634,545,618,525,607,491,610,468",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/nutrition.jpg",
+		"data-name": "Nutrition and Food Science Building",
+		"data-description": "Is a College of Science (CS) educational building",
+        "data-long-description": "The building houses the College of Nutrition and Food Science. The building is equipped with state-of-the-art facilities that support the college's academic programs. The classrooms are equipped with multimedia projectors and computers. The laboratories are equipped with the latest equipment for food analysis, food processing, and food safety. ",
+		"coords": "422,559,423,577,571,577,571,553",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/no-image.jpg",
+		"data-name": "Campus Development and Maintenance Building",
+		"data-description": "Is a campus development and maintenance building",
+		"data-long-description": "It houses the university's Campus Development and Maintenance Office (CDMO). he workshop is equipped with the latest tools and equipment for carpentry, welding, and electrical work.",
+		"coords": "333,569,333,579,384,578,384,569",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/ferry.jpg",
+		"data-name": "PUP Sta. Mesa Ferry Station",
+		"data-description": "Services 2 lines including PNR and Pasig River Ferry",
+		"data-long-description": "The Pasig River Ferry Service (PRFS) is a public water bus service based in Metro Manila, the Philippines. It is currently the only water-based transportation service in Metro Manila that cruises the length of the Pasig River and Marikina River, passing through the cities of Manila, Makati, Mandaluyong, Pasig, Marikina, and Taguig.",
+		"coords": "254,548,263,569,268,567,270,572,281,568,271,539,260,544,260,548",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/no-image.jpg",
+		"data-name": "Generator Facility",
+		"data-description": "Power!",
+		"data-long-description": "The generator facility is a critical part of the university's infrastructure. It provides backup power in case of a power outage from the main grid. The facility also helps to ensure that the university has a reliable source of electricity, even during peak demand periods.",
+		"coords": "255,526,259,533,262,525,266,529",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/linear.jpg",
+		"data-name": "Linear Park",
+		"data-description": "Is situated nearby to the food court Student Canteen and the theatre PUP Amphitheater.",
+		"data-long-description": "The Linear Park is a valuable resource for the Polytechnic University of the Philippines community. It provides a safe and clean space for students, faculty, staff, and the general public to relax and enjoy the outdoors. The park is also a symbol of the university's commitment to sustainability and environmental protection.",
+		"coords": "199,402,211,402,108,107,115,105",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/main.jpg",
+		"data-name": "Main Building",
+		"data-description": "House of the great species on earth",
+		"data-long-description": "The Main Building is a beautiful and well-maintained building that is a symbol of the university's history and tradition. It is a valuable resource for the Polytechnic University of the Philippines community and is a popular spot for students, faculty, staff, and the general public to gather and socialize.",
+		"coords": "355,440,355,549,368,551,369,558,404,559,406,548,415,549,415,438,425,419,519,365,514,353,522,348,504,318,496,320,490,314,395,368,375,368,277,314,273,319,265,316,246,347,255,353,248,363,343,419,313,438,293,401,280,388,233,416,241,429,242,430,239,433,258,465,272,491,288,516,304,536,349,510,346,496,327,457",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/canteen.jpg",
+		"data-name": "Student Canteen",
+		"data-description": "Kasing sarap ng panglanghap sa Ilog Pasig",
+		"data-long-description": "The canteen is a popular spot for students to eat lunch and dinner. The food is affordable and the atmosphere is relaxed. The canteen is also a great place to meet up with friends and classmates.",
+		"coords": "224,271,249,284,263,263,232,248",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/sampaguita.jpg",
+		"data-name": "University Canteen - Sampaguita Building",
+		"data-description": "Same lang sa Student Canteen - TBH",
+		"data-long-description": "The canteen is a popular spot for students and faculty to eat lunch and dinner. The food is affordable and the atmosphere is relaxed. The canteen is also a great place to meet up with friends, classmates, and co-faculty.",
+		"coords": "206,268,252,296,237,319,215,306,208,310,196,302,201,297,191,292",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/lagoon.jpg",
+		"data-name": "Lagoon",
+		"data-description": "😋🍗🍟🍔🍪🤢",
+		"data-long-description": "The lagoon is a popular spot for students to relax and socialize. The lagoon is a great place to read a book, take a walk, buy and eat food from there, or simply enjoy the outdoors. The lagoon is also a popular spot for students to hold picnics and parties.",
+		"coords": "350,276,350,296,365,290,378,291,388,291,397,285,404,283,431,260,420,271,440,247,449,226,452,210,466,196,477,182,478,171,466,153,452,143,431,148,421,159,421,195,416,209,402,214,389,213,379,223,375,237,375,256,376,268,363,272",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/pool.jpg",
+		"data-name": "Swimming Pool",
+		"data-description": "Iyak pag between Wednesday to Friday ang PE",
+		"data-long-description": "The pool is an Olympic-sized pool that is capable of handling several swimming classes and student athlete activities simultaneously. It is also a popular spot for students to simply relax and enjoy the outdoors.",
+		"coords": "543,43,637,89",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/obelisk.jpg",
+		"data-name": "PUP Obelisk",
+		"data-description": "🫡",
+		"data-long-description": "The Obelisk, standing majestic on its base, depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting educational and moral aims which are fortified by a determined leadership with a clear vision for the Filipino youth and an efficient support system inspired by the virtues of public service.",
+		"coords": "562,219,19",
+		"shape": "circle"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/flag.jpg",
+		"data-name": "Flag Pole",
+		"data-description": "🫡",
+		"data-long-description": "The Philippine Flag spring red and blue bands - a symbol of the PUP community's respect for nationalism and Filipinism, strengthened by the PUPians' role in nation-building, courageous outlook, tenacity and contribution to economic progress.",
+		"coords": "525,311,545,332",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/freedom.jpg",
+		"data-name": "Freedom Park",
+		"data-description": "⚠️ Under Renovation",
+		"data-long-description": "It is a popular hangout spot for students and faculty members alike. The park features benches, and trees that provide shade and a relaxing atmosphere.",
+		"coords": "508,291,563,316,587,262,564,266,541,260",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/mabini.jpg",
+		"data-name": "Apolinario Mabini Shrine",
+		"data-description": "It is noted for being the residence of Filipino military leader Apolinario Mabini who figured in the Philippine Revolution",
+		"data-long-description": "The Apolinario Mabini Shrine (Filipino: Dambanang Apolinario Mabini) is a historic site in Santa Mesa, Manila, Philippines. It is noted for being the residence of Filipino military leader Apolinario Mabini who figured in the Philippine Revolution. Originally situated along the Nagtahan River, the structure was moved to the Polytechnic University of the Philippines main campus in Santa Mesa, Manila in the mid-2000s.",
+		"coords": "566,328,607,348,651,288,607,254,593,264",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/grandstand.jpg",
+		"data-name": "Grandstand",
+		"data-description": "A bleacher for the PUP Track and Field Oval",
+		"data-long-description": "The PUP Main Campus' Grandstand is a large outdoor facility designed to accommodate a substantial number of people. It is strategically positioned near the heart of the campus, making it easily accessible to students, faculty, and visitors. The grandstand is situated in an open space, providing an unobstructed view of the surrounding areas.",
+		"coords": "628,372,635,377,631,382,638,385,653,362,659,366,674,349,668,343,683,323,669,315,656,336,648,336,638,347,641,355",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/no-image.jpg",
+		"data-name": "Gazebo",
+		"data-description": "Dili na lang ako mag-talk",
+		"data-long-description": "The PUP Main Campus gazebo is a small, standalone structure located in a picturesque area of the campus. It is typically positioned in a well-maintained garden or landscaped area, providing a serene and tranquil spot for students, faculty, and visitors to relax or engage in outdoor activities.",
+		"coords": "655,250,655,257,667,259,668,250",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/gabriela.jpg",
+		"data-name": "Community Building",
+		"data-description": "Also known/called as Gabriela Silang Building",
+		"data-long-description": "The PUP Main Campus gazebo is a small, standalone structure located in a picturesque area of the campus. It is typically positioned in a well-maintained garden or landscaped area, providing a serene and tranquil spot for students, faculty, and visitors to relax or engage in outdoor activities.",
+		"coords": "813,491,823,500,851,463,839,455",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/gym.jpg",
+		"data-name": "Gymnasium and Sports Center",
+		"data-description": "Newly built. Ganda 🌞",
+		"data-long-description": "The University Gymnasium serves as the training ground for the student athletes that participate in the intercollegiate sports program",
+		"coords": "655,26,781,109",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/tennis.jpg",
+		"data-name": "Tennis Court",
+		"data-description": "⚠️ Under Renovation - Tinambakan ng Lupa",
+		"data-long-description": "The tennis court at the PUP Main Campus is a specialized outdoor sports facility designed specifically for playing tennis. It is typically located in a designated area within the campus grounds, easily accessible to the PUP community.",
+		"coords": "684,127,771,203",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/basketball.jpg",
+		"data-name": "Outdoor Basketball and Volleyball Court",
+		"data-description": "⚠️ Under Renovation - Tinambakan ng Lupa",
+		"data-long-description": "The outdoor basketball and volleyball court at the PUP Main Campus is a versatile sports facility designed to accommodate both basketball and volleyball activities. It is typically located in a spacious area of the campus grounds, easily accessible to the university community.",
+		"coords": "592,123,681,184",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/visitor.jpg",
+		"data-name": "Visitor Information Center",
+		"data-description": "You can buy pup merch here",
+		"data-long-description": "The Visitor Information Center is a designated location within the PUP Main Campus where visitors can obtain information, guidance, and support regarding various aspects of the university. It is often situated near the entrance or in a prominent area, making it easily accessible to guests.",
+		"coords": "804,185,833,213",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/tahanan.jpg",
+		"data-name": "Tahanan ng Alumni",
+		"data-description": "Here goes the Federation of Alumni Associations",
+		"data-long-description": "The Tahanan ng Alumni is a building or facility specifically designed to cater to the needs of PUP alumni. It symbolizes the university's recognition of its graduates and provides them with a space to reconnect, reminisce, and contribute to the growth and development of their alma mater.",
+		"coords": "516,37,532,80",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/chk.jpg",
+		"data-name": "Physical Education Building",
+		"data-description": "🎾🏓🏐",
+		"data-long-description": "PUP does have a College of Human Kinetics (CHK), which is a department or academic unit that focuses on the study of human movement, physical education, and related fields. The CHK may have dedicated facilities within the campus, including classrooms, laboratories, and sports facilities, where students pursuing programs in human kinetics can engage in practical training, research, and other academic activities.",
+		"coords": "480,10,510,142",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/library.jpg",
+		"data-name": "Ninoy Aquino Library and Learning Resources Center",
+		"data-description": "is the library system of the Polytechnic University of the Philippines composed of libraries providing services to the PUP System",
+		"data-long-description": "The NALLRC Main Library is regarded as one of the largest libraries in Southeast Asia. The building is also home to the university's College of Law and Open University System.",
+		"coords": "310,25,378,216,419,199,396,127,464,103,450,61,379,84,352,9",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/water.jpg",
+		"data-name": "Water Tank / UFO",
+		"data-description": "👽🛸🛸",
+		"data-long-description": "The water tank at the Polytechnic University of the Philippines (PUP) Main Campus is a large storage container designed to hold and supply water to the campus facilities.",
+		"coords": "302,67,13",
+		"shape": "circle"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/water.jpg",
+		"data-name": "Water Pump Facility",
+		"data-description": "Provides water. That's all",
+		"data-long-description": "The water pump facility at the Polytechnic University of the Philippines (PUP) Main Campus is a large storage container designed to hold and supply water to the campus facilities.",
+		"coords": "280,3,306,37",
+		"shape": "rect"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/charlie.jpg",
+		"data-name": "Charlie Del Rosario Hall",
+		"data-description": "Is a structure dedicated to the first victim of the Marcos Regime.",
+		"data-long-description": "The Charlie Del Rosario Building is a structure dedicated to the first victim of the Marcos Regime. An activist and desaparacido, he advocated rights for the oppressed. Even though he was never found again, he has already found his home here.",
+		"coords": "164,197,268,257,289,225,185,162",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/amphi.jpg",
+		"data-name": "Amphitheater",
+		"data-description": "In here nagtatanghal ang mga student na may requirements sa pagtatanghal",
+		"data-long-description": "The amphitheater is a semi-circular or circular structure with tiered seating, creating a stepped arrangement that allows for optimal viewing of performances or presentations. It is typically situated in an open area of the campus, often surrounded by green spaces or gardens, creating a pleasant and inviting atmosphere.",
+		"coords": "356,298,374,297,392,292,402,304,410,321,394,328,374,325,360,312",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/labhigh.jpg",
+		"data-name": "Laboratory High School",
+		"data-description": "Was established in 1954 during the Philippine College of Commerce era. Bright Kids",
+		"data-long-description": "The PUP Laboratory High School (PUP LHS) was established in 1954 during the Philippine College of Commerce era. The PUP LHS curricular program focuses on Discipline, Academic Excellence, Nationalism and Commerce. It is one of the top performing high schools in the country producing top caliber students who later become prominent in their chosen field of specialization.",
+		"coords": "300,225,133,119,127,95,135,76,165,27,178,8,193,12,223,31,251,45,263,57,282,110,298,156,310,185,314,199",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/no-image.jpg",
+		"data-name": "Printing Press Building",
+		"data-description": "Publishing House inside the Campus",
+		"data-long-description": "It handles printing and publishing needs of the University. These facilities are responsible for producing various materials, including academic publications, textbooks, research papers, and other printed materials required by the university community.",
+		"coords": "82,47,104,76,115,69,94,40",
+		"shape": "poly"
+	},
+	{
+		"data-image": "assets/img/pup_buildings/no-image.jpg",
+		"data-name": "Property Building",
+		"data-description": "Here lies some properties or artifacts of PUP",
+		"data-long-description": "PUP have various administrative buildings or departments responsible for property management, facility maintenance, and related tasks. These buildings are responsible for overseeing the maintenance, repairs, renovations, and overall management of the university's physical assets and properties.",
+		"coords": "84,2,84,15,98,16,99,26,127,24,127,17,140,16,140,2",
+		"shape": "poly"
+	}
+]

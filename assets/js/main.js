@@ -166,58 +166,93 @@ function subscribe() {
 	});
 }
 
-// ImageMap
+/*=============== IMAGE MAP LOGIC ===============*/
 document.addEventListener("DOMContentLoaded", function () {
-	const areas = document.getElementsByTagName("area");
+	fetch("assets/json/areas.json")
+		.then((response) => response.json())
+		.then((jsonData) => {
+			jsonData.forEach(function (data) {
+				const area = document.createElement("area");
+				area.dataset.image = data["data-image"];
+				area.dataset.name = data["data-name"];
+				area.dataset.description = data["data-description"];
+				area.dataset.long_description = data["data-long-description"];
+				area.coords = data.coords;
+				area.shape = data.shape;
 
-	for (let i = 0; i < areas.length; i++) {
-		const area = areas[i];
-		const previewBox = createPreviewBox();
+				const map = document.querySelector("map[name='image-map']");
+				map.appendChild(area);
 
-		area.addEventListener("mouseover", function () {
-			const preview = {
-				image: area.dataset.image,
-				name: area.dataset.name,
-				description: area.dataset.description,
-			};
+				const previewBox = createPreviewBox();
 
-			updatePreviewBox(previewBox, preview);
-			document.body.appendChild(previewBox);
+				area.addEventListener("mouseover", function () {
+					const preview = {
+						image: area.dataset.image,
+						name: area.dataset.name,
+						description: area.dataset.description,
+					};
+
+					updatePreviewBox(previewBox, preview);
+					document.body.appendChild(previewBox);
+
+					area.style.cursor = "pointer";
+				});
+
+				area.addEventListener("mousemove", function (event) {
+					const mouseX = event.clientX;
+					const mouseY = event.clientY;
+
+					const boxWidth = previewBox.offsetWidth;
+					const boxHeight = previewBox.offsetHeight;
+
+					const windowWidth = window.innerWidth;
+					const windowHeight = window.innerHeight;
+
+					let left = mouseX - boxWidth / 2;
+					let top = mouseY - boxHeight - 10;
+
+					if (left < 0) {
+						left = 0;
+					} else if (left + boxWidth > windowWidth) {
+						left = windowWidth - boxWidth;
+					}
+
+					if (top < 0) {
+						top = 0;
+					} else if (top + boxHeight > windowHeight) {
+						top = windowHeight - boxHeight;
+					}
+
+					previewBox.style.left = left + "px";
+					previewBox.style.top = top + "px";
+				});
+
+				area.addEventListener("mouseout", function () {
+					previewBox.remove();
+				});
+
+				area.addEventListener("click", function () {
+					document.body.classList.add("modal-open");
+					const modalContent = {
+						image: area.dataset.image,
+						name: area.dataset.name,
+						long_description: area.dataset.long_description,
+					};
+
+					const modal = createModal(modalContent);
+					document.body.appendChild(modal);
+
+					const closeButton = modal.querySelector(".modal-close");
+					closeButton.addEventListener("click", function () {
+						modal.remove();
+						document.body.classList.remove("modal-open");
+					});
+				});
+			});
+		})
+		.catch((error) => {
+			console.error("Error fetching JSON:", error);
 		});
-
-		area.addEventListener("mousemove", function (event) {
-			const mouseX = event.clientX;
-			const mouseY = event.clientY;
-
-			const boxWidth = previewBox.offsetWidth;
-			const boxHeight = previewBox.offsetHeight;
-
-			const windowWidth = window.innerWidth;
-			const windowHeight = window.innerHeight;
-
-			let left = mouseX - boxWidth / 2;
-			let top = mouseY - boxHeight - 10;
-
-			if (left < 0) {
-				left = 0;
-			} else if (left + boxWidth > windowWidth) {
-				left = windowWidth - boxWidth;
-			}
-
-			if (top < 0) {
-				top = 0;
-			} else if (top + boxHeight > windowHeight) {
-				top = windowHeight - boxHeight;
-			}
-
-			previewBox.style.left = left + "px";
-			previewBox.style.top = top + "px";
-		});
-
-		area.addEventListener("mouseout", function () {
-			previewBox.remove();
-		});
-	}
 
 	function createPreviewBox() {
 		const previewBox = document.createElement("div");
@@ -235,14 +270,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	function updatePreviewBox(previewBox, preview) {
 		previewBox.innerHTML = `
-      <div class="preview-container">
-		<div class="preview-name"><strong>${preview.name}</strong></div>
-		<div class="preview-description">${preview.description}</div>
-      </div>
-    `;
+			<div class="preview-container">
+				<div class="preview-name"><strong>${preview.name}</strong></div>
+				<div class="preview-description">${preview.description}</div>
+			</div>
+		`;
 		previewBox.style.backgroundImage = `url("${preview.image}")`;
 		previewBox.style.display = "block";
 		previewBox.style.backgroundSize = "cover";
 		previewBox.style.backgroundPosition = "center";
+	}
+
+	function createModal(modalContent) {
+		const modal = document.createElement("div");
+		modal.className = "modal";
+		modal.innerHTML = `
+			<div class="modal-content">
+				<span class="modal-close">&times;</span>
+				<img class="modal-image" src="${modalContent.image}" alt="Modal Image">
+				<div class="preview-container">
+					<div class="preview-name"><strong>${modalContent.name}</strong></div>
+					<div class="preview-description">${modalContent.long_description}</div>
+				</div>
+			</div>
+		`;
+
+		return modal;
 	}
 });
